@@ -69,6 +69,7 @@ class Bot:
             log.info('Мы не можем обрабатывать событие такого типа %s', event.type)
 
 
+
 if __name__ == '__main__':
     configure_log()
     bot = Bot(settings.GROUP_ID, settings.TOKEN)
